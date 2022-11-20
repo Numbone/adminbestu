@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import { Route,Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Eticket from './pages/Eticket';
+import Gift from './pages/Gift';
+import Order from './pages/Order';
+import Promocode from './pages/Promocode';
+import User from './pages/User';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className='row'>
+        <div className='col-3'>
+          <Navbar />
+        </div>
+
+        <div className='col-9'>
+          <Routes>
+            <Route key={1} path="/eticket" element={<Eticket />} />
+            <Route key={2} path="/gift" element={<Gift />} />
+            <Route key={3} path="/order" element={<Order />} />
+            <Route key={4} path="/promocode" element={<Promocode />} />
+            <Route key={5} path="/user" element={<User />} />
+          </Routes>
+        </div>
+      </div>
+      {/* </div> */}
+
     </div>
   );
 }

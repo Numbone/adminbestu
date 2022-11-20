@@ -1,0 +1,77 @@
+.navbar__content__top{
+    background-color:#363940;
+    height:50px;
+    display:flex;
+    justify-content: center;
+
+}
+.navbar__content{
+    background-color: #363940;
+    height:95vh;
+    display:flex;
+    justify-content: center;
+    
+}
+.navbar__container{
+    
+    width: 100%;
+    color: white;
+}
+.navbar__top{
+    display: flex;
+    margin-top: 10px;
+}
+.navbar__logo{
+    margin-right: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 20px;
+    min-width: 30px;
+    height: 30px;
+    background-color: white;
+    align-items: center;
+    color: black;
+    margin-left: 18%;
+}
+.navbar__text{
+    display: flex;
+    align-items: center;
+}
+.navbar__link{
+    display: flex;
+   margin-bottom: 10px;
+   height: 30px;
+   align-items: center;
+   margin-left: 10px;
+}
+.navbar__link:focus{
+    background-color: rgb(0,104,248);
+    border-radius: 5px;
+}
+.navbar__icon{
+    margin-right: 20px;
+    margin-left: 20%;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.dropdown__icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.dropdown__link{
+    display: flex;
+    justify-content: center;
+}
+.dropdown__text{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
