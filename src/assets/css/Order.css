@@ -1,0 +1,28 @@
+.universial_text{
+    font-size: 24px;
+    font-weight: 500;
+}
+.custom__container{
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+}
+.data__time{
+    width: 100%;
+}
+#date{
+    margin-bottom: 10px;
+}
+.icon__container{
+    position: absolute;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    left: 95%;
+    border-right: 1px solid black;
+}
+.uni__text{
+    font-size: 16px;
+    margin-bottom: 5px;
+   
+}

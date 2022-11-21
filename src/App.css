@@ -73,3 +73,13 @@ a:hover{
    
     color: white;
 }
+.content-color{
+    background-color: #DADADA;
+}
+.row>* {
+    padding-right: 0px!important;
+}
+.custom__container{
+    background-color: white;
+    border-radius: 10px;
+}

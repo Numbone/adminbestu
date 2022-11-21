@@ -17,7 +17,7 @@ function App() {
           <Navbar />
         </div>
 
-        <div className='col-9'>
+        <div className='col-9 content-color'>
           <Routes>
             <Route key={1} path="/eticket" element={<Eticket />} />
             <Route key={2} path="/gift" element={<Gift />} />
