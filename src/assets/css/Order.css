@@ -1,11 +1,13 @@
 .universial_text{
     font-size: 24px;
     font-weight: 500;
+    margin-left: 20px;
 }
 .custom__container{
     width: 100%;
     padding: 20px;
     height: 100%;
+    background-color:#DADADA; 
 }
 .data__time{
     width: 100%;

@@ -1,6 +1,7 @@
-import { Route,Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import SideBar from './components/SideBar/SideBar';
 import Eticket from './pages/Eticket';
 import Gift from './pages/Gift';
 import Order from './pages/Order';
@@ -12,12 +13,12 @@ function App() {
   return (
     <div className="App">
 
-      <div className='row'>
-        <div className='col-3'>
-          <Navbar />
-        </div>
+      
+          <SideBar/>
 
-        <div className='col-9 content-color'>
+
+        {/* <div className='col-9 content-color'>
+          <div className='topbg'></div>
           <Routes>
             <Route key={1} path="/eticket" element={<Eticket />} />
             <Route key={2} path="/gift" element={<Gift />} />
@@ -25,8 +26,8 @@ function App() {
             <Route key={4} path="/promocode" element={<Promocode />} />
             <Route key={5} path="/user" element={<User />} />
           </Routes>
-        </div>
-      </div>
+        </div> */}
+      
       {/* </div> */}
 
     </div>
