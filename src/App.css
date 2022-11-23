@@ -1,7 +1,6 @@
-.App{
-  
-}
-a,
+.App {}
+
+/* a,
 b,
 blockquote,
 body,
@@ -72,24 +71,82 @@ a {
 a:hover{
    
     color: white;
-}
-.content-color{
+} */
+.content-color {
     background-color: #DADADA;
-     padding-left: 0px!important;
+    padding-left: 0px !important;
 }
+
 .App.row>* {
-    padding-right: 0px!important;
+    padding-right: 0px !important;
     /* padding-left: 0px!important; */
 }
-.custom__container{
+
+.custom__container {
     background-color: white;
     border-radius: 10px;
 }
-.topbg{
-    height:50px;
+
+.topbg {
+    height: 50px;
     width: 100%;
     background-color: white;
 }
-.navbarbg{
+
+.navbarbg {
     background-color: #363940;
+}
+
+a:hover {
+    color: white;
+}
+
+a:hover {
+    color: var(--bs-link-hover-color);
+}
+
+.bi {
+    fill: currentColor;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.pe-none {
+    pointer-events: none !important;
+}
+
+.me-2 {
+    margin-right: .5rem !important;
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh !important;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid;
+    opacity: .25;
 }

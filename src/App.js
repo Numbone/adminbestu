@@ -11,11 +11,11 @@ import User from './pages/User';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex flex-nowrap">
 
-      
+
           <SideBar/>
-
+          <div class="b-example-divider b-example-vr"></div>
 
         {/* <div className='col-9 content-color'>
           <div className='topbg'></div>
