@@ -1,0 +1,25 @@
+.sb-topnav {
+    padding-left: 0;
+    height: 56px;
+    z-index: 1039;
+  }
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }
+  .navbar-expand {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  *, ::before, ::after {
+    box-sizing: border-box;
+  }

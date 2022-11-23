@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import SideBar from './components/SideBar/SideBar';
 import Eticket from './pages/Eticket';
@@ -13,10 +14,19 @@ function App() {
   return (
     <div className="App d-flex flex-nowrap">
 
-
-          <SideBar/>
-          <div class="b-example-divider b-example-vr"></div>
-
+          <div className='container'>
+            <div className='row'>
+                <div className='col'>
+                <SideBar/>
+                </div>
+                <div className='col-9'>
+                  <Header/>
+                <div class="b-example-divider b-example-vr"></div>
+                </div>
+            </div>
+          </div>
+          
+          
         {/* <div className='col-9 content-color'>
           <div className='topbg'></div>
           <Routes>
